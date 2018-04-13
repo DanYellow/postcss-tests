@@ -1,0 +1,15 @@
+
+$theme: var(--theme);
+
+:root {
+    @if $theme == php {
+        --bg-color: violet;
+    } 
+    @else {
+        --bg-color: green;
+    }
+}
+
+.foo {
+   background: var(--bg-color);
+}

@@ -1,0 +1,7 @@
+:root {
+        --bg-color: violet
+}
+
+.foo {
+   background: var(--bg-color);
+}
