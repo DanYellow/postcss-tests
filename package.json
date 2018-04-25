@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postcss": "cross-env THEME=dfn postcss input.pcss -o output.css"
+    "postcss": "cross-env THEME=red postcss input.pcss -o output.css"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,7 @@
   "devDependencies": {
     "cross-env": "^5.1.4",
     "postcss": "^6.0.21",
-    "postcss-cssnext": "^3.1.0"
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^11.1.0"
   }
 }
